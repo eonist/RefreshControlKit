@@ -1,6 +1,9 @@
 # RefreshControl
 A table refresh control
 
+### Installation:
+- SPM: `.package(url: "https://github.com/eonist/RefreshControl.git", .branch("master"))`
+
 ### Examples:
 ```swift
 lazy var refresher = Refresher.init(onBeganRefreshing: refreshBegan, onEndedRefreshing: refreshEnded)
