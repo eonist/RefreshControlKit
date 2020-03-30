@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F12D0E9D2349CEF2004582FA /* RefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D0E9B2349CEF2004582FA /* RefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F12D0EA42349CF43004582FA /* RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D0EA32349CF43004582FA /* RefreshControl.swift */; };
-		F12D0EA72349D1C8004582FA /* RefreshControl+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D0EA62349D1C8004582FA /* RefreshControl+Action.swift */; };
-		F12D0EA92349D1E1004582FA /* RefreshControl+Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D0EA82349D1E1004582FA /* RefreshControl+Typealias.swift */; };
+		F14965FD2432486E008C1847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14965FC2432486E008C1847 /* AppDelegate.swift */; };
+		F14965FF2432486E008C1847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14965FE2432486E008C1847 /* SceneDelegate.swift */; };
+		F14966012432486F008C1847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14966002432486F008C1847 /* ViewController.swift */; };
+		F14966042432486F008C1847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14966022432486F008C1847 /* Main.storyboard */; };
+		F149660624324870008C1847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F149660524324870008C1847 /* Assets.xcassets */; };
+		F149660924324870008C1847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F149660724324870008C1847 /* LaunchScreen.storyboard */; };
+		F14966132432487B008C1847 /* RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14966102432487B008C1847 /* RefreshControl.swift */; };
+		F14966142432487B008C1847 /* RefreshControl+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14966112432487B008C1847 /* RefreshControl+Action.swift */; };
+		F14966152432487B008C1847 /* RefreshControl+Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14966122432487B008C1847 /* RefreshControl+Typealias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F12D0E982349CEF2004582FA /* RefreshControlKitKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RefreshControlKitKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F12D0E9B2349CEF2004582FA /* RefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshControl.h; sourceTree = "<group>"; };
-		F12D0E9C2349CEF2004582FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F12D0EA32349CF43004582FA /* RefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControl.swift; sourceTree = "<group>"; };
-		F12D0EA62349D1C8004582FA /* RefreshControl+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RefreshControl+Action.swift"; sourceTree = "<group>"; };
-		F12D0EA82349D1E1004582FA /* RefreshControl+Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RefreshControl+Typealias.swift"; sourceTree = "<group>"; };
+		F14965FA2432486E008C1847 /* RefreshControlKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshControlKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14965FC2432486E008C1847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F14965FE2432486E008C1847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F14966002432486F008C1847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F14966032432486F008C1847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F149660524324870008C1847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F149660824324870008C1847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F149660A24324870008C1847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14966102432487B008C1847 /* RefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshControl.swift; sourceTree = "<group>"; };
+		F14966112432487B008C1847 /* RefreshControl+Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RefreshControl+Action.swift"; sourceTree = "<group>"; };
+		F14966122432487B008C1847 /* RefreshControl+Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RefreshControl+Typealias.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F12D0E952349CEF2004582FA /* Frameworks */ = {
+		F14965F72432486E008C1847 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +46,8 @@
 		F12D0E8E2349CEF2004582FA = {
 			isa = PBXGroup;
 			children = (
-				F12D0E9A2349CEF2004582FA /* RefreshControl */,
+				F149660E2432487B008C1847 /* Sources */,
+				F14965FB2432486E008C1847 /* RefreshControlKitExample */,
 				F12D0E992349CEF2004582FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,55 +55,62 @@
 		F12D0E992349CEF2004582FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F12D0E982349CEF2004582FA /* RefreshControlKitKit.framework */,
+				F14965FA2432486E008C1847 /* RefreshControlKitExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F12D0E9A2349CEF2004582FA /* RefreshControl */ = {
+		F14965FB2432486E008C1847 /* RefreshControlKitExample */ = {
 			isa = PBXGroup;
 			children = (
-				F12D0E9B2349CEF2004582FA /* RefreshControl.h */,
-				F12D0E9C2349CEF2004582FA /* Info.plist */,
-				F12D0EA32349CF43004582FA /* RefreshControl.swift */,
-				F12D0EA62349D1C8004582FA /* RefreshControl+Action.swift */,
-				F12D0EA82349D1E1004582FA /* RefreshControl+Typealias.swift */,
+				F14965FC2432486E008C1847 /* AppDelegate.swift */,
+				F14965FE2432486E008C1847 /* SceneDelegate.swift */,
+				F14966002432486F008C1847 /* ViewController.swift */,
+				F14966022432486F008C1847 /* Main.storyboard */,
+				F149660524324870008C1847 /* Assets.xcassets */,
+				F149660724324870008C1847 /* LaunchScreen.storyboard */,
+				F149660A24324870008C1847 /* Info.plist */,
+			);
+			path = RefreshControlKitExample;
+			sourceTree = "<group>";
+		};
+		F149660E2432487B008C1847 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F149660F2432487B008C1847 /* RefreshControl */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F149660F2432487B008C1847 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				F14966102432487B008C1847 /* RefreshControl.swift */,
+				F14966112432487B008C1847 /* RefreshControl+Action.swift */,
+				F14966122432487B008C1847 /* RefreshControl+Typealias.swift */,
 			);
 			path = RefreshControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		F12D0E932349CEF2004582FA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F12D0E9D2349CEF2004582FA /* RefreshControl.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		F12D0E972349CEF2004582FA /* RefreshControlKitKit */ = {
+		F14965F92432486E008C1847 /* RefreshControlKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F12D0EA02349CEF2004582FA /* Build configuration list for PBXNativeTarget "RefreshControlKitKit" */;
+			buildConfigurationList = F149660B24324870008C1847 /* Build configuration list for PBXNativeTarget "RefreshControlKitExample" */;
 			buildPhases = (
-				F12D0E932349CEF2004582FA /* Headers */,
-				F12D0E942349CEF2004582FA /* Sources */,
-				F12D0E952349CEF2004582FA /* Frameworks */,
-				F12D0E962349CEF2004582FA /* Resources */,
-				F12D0EA52349D096004582FA /* ShellScript */,
+				F14965F62432486E008C1847 /* Sources */,
+				F14965F72432486E008C1847 /* Frameworks */,
+				F14965F82432486E008C1847 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RefreshControlKitKit;
-			productName = RefreshControl;
-			productReference = F12D0E982349CEF2004582FA /* RefreshControlKitKit.framework */;
-			productType = "com.apple.product-type.framework";
+			name = RefreshControlKitExample;
+			productName = RefreshControlKitExample;
+			productReference = F14965FA2432486E008C1847 /* RefreshControlKitExample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,12 +118,12 @@
 		F12D0E8F2349CEF2004582FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = FutureLab;
 				TargetAttributes = {
-					F12D0E972349CEF2004582FA = {
-						CreatedOnToolsVersion = 10.2;
-						LastSwiftMigration = 1020;
+					F14965F92432486E008C1847 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -115,59 +133,65 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F12D0E8E2349CEF2004582FA;
 			productRefGroup = F12D0E992349CEF2004582FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F12D0E972349CEF2004582FA /* RefreshControlKitKit */,
+				F14965F92432486E008C1847 /* RefreshControlKitExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F12D0E962349CEF2004582FA /* Resources */ = {
+		F14965F82432486E008C1847 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F149660924324870008C1847 /* LaunchScreen.storyboard in Resources */,
+				F149660624324870008C1847 /* Assets.xcassets in Resources */,
+				F14966042432486F008C1847 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		F12D0EA52349D096004582FA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		F12D0E942349CEF2004582FA /* Sources */ = {
+		F14965F62432486E008C1847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F12D0EA42349CF43004582FA /* RefreshControl.swift in Sources */,
-				F12D0EA92349D1E1004582FA /* RefreshControl+Typealias.swift in Sources */,
-				F12D0EA72349D1C8004582FA /* RefreshControl+Action.swift in Sources */,
+				F14966012432486F008C1847 /* ViewController.swift in Sources */,
+				F14965FD2432486E008C1847 /* AppDelegate.swift in Sources */,
+				F14966152432487B008C1847 /* RefreshControl+Typealias.swift in Sources */,
+				F14965FF2432486E008C1847 /* SceneDelegate.swift in Sources */,
+				F14966132432487B008C1847 /* RefreshControl.swift in Sources */,
+				F14966142432487B008C1847 /* RefreshControl+Action.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F14966022432486F008C1847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14966032432486F008C1847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F149660724324870008C1847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F149660824324870008C1847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F12D0E9E2349CEF2004582FA /* Debug */ = {
@@ -292,52 +316,37 @@
 			};
 			name = Release;
 		};
-		F12D0EA12349CEF2004582FA /* Debug */ = {
+		F149660C24324870008C1847 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RefreshControl/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = RefreshControlKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.RefreshControl;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = co.passbook.RefreshControlKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F12D0EA22349CEF2004582FA /* Release */ = {
+		F149660D24324870008C1847 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RefreshControl/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = RefreshControlKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.RefreshControl;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = co.passbook.RefreshControlKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,11 +364,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F12D0EA02349CEF2004582FA /* Build configuration list for PBXNativeTarget "RefreshControlKitKit" */ = {
+		F149660B24324870008C1847 /* Build configuration list for PBXNativeTarget "RefreshControlKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F12D0EA12349CEF2004582FA /* Debug */,
-				F12D0EA22349CEF2004582FA /* Release */,
+				F149660C24324870008C1847 /* Debug */,
+				F149660D24324870008C1847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

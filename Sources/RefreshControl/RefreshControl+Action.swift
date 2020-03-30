@@ -8,7 +8,7 @@ extension RefreshControl {
     */
    public func beginRefreshing() {
       if isRefreshing == false {
-         //         Swift.print("beginRefreshing false \(isRefreshing)")
+         // Swift.print("beginRefreshing false \(isRefreshing)")
          isRefreshing = true
          beganRefreshing()
       }
@@ -18,7 +18,7 @@ extension RefreshControl {
     */
    public func endRefreshing() {
       if isRefreshing == true {
-         //         Swift.print("endRefreshing() isRefreshing: \(isRefreshing)")
+         // Swift.print("endRefreshing() isRefreshing: \(isRefreshing)")
          isRefreshing = false
          endedRefreshing()
       }
