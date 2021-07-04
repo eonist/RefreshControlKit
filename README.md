@@ -33,9 +33,13 @@ func refreshEnded() {
  * - Note: calls a callback that notifies external UI elements to reposition etc
  */
 func scrollViewDidScroll(_ scrollView: UIScrollView) {
-	if self.contentOffset.y <= -100 && tableView.refresher.isRefreshing == false {
-		self?.tableView.refresher.beginRefreshing()
-	}
+   if self.contentOffset.y <= -100 && tableView.refresher.isRefreshing == false {
+      self?.tableView.refresher.beginRefreshing()
+   }
 }
 
 ```
+
+### Todo:
+- Add github actions
+- Add spm
